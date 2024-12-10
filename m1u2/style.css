@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+    font-family: monospace;
+    background-color: #7678ed;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para la caja principal */
+.content_Carta {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffee32;
+    border-radius: 18px;
+    box-shadow: 0 6px 8px #ffff;
+    text-align: center;
+}
+
+/* Estilo de la imagen de perfil */
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: fill;
+    margin-bottom: 20px;
+}
+
+/* Estilo de los encabezados */
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 5px;
+}
+
+/* Estilo para la información */
+.content_info p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}
+
+li {
+    font-size: 1.1em;
+    color: #444;
+    text-align: center;
+    list-style-position: inside;
+    text-align: center;
+}
+
+/* Estilo para enlace */
+a {
+    color: #2200fc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
