@@ -1,0 +1,39 @@
+body {
+    display: flex;            
+    align-items: center;
+    justify-content: center;  
+    margin: 0;
+    color: #fff;
+    font-family: 24px;
+}
+.caja-padre {
+    width: 100%;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    
+}
+
+.caja-roja {
+   background-color: #f00;
+}
+
+.caja-azul {
+    background-color:#00f
+}
+
+.caja-verde {
+    background-color: #0f0;
+}
+
+.caja-roja, .caja-azul, .caja-verde {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 130px;
+    width: 130px;
+    
+}
