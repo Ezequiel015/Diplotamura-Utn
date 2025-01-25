@@ -46,6 +46,7 @@ aside {
 @media (max-width: 800px) {
 	body {
 		background-color: aqua;
+		margin: 0;
 	}
 	h1,nav,ul,section,aside {
 		width: 100%;
