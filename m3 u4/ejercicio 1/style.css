@@ -1,0 +1,23 @@
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+div{
+    width: 350px;
+    height: 100px;
+}
+.rojo {
+    background: red;
+
+}
+
+.verde {
+    background: greenyellow;
+}
+
+.azul {
+    background: blue;
+}
+
+
